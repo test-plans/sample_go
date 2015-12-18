@@ -12,7 +12,7 @@ go:
 env:
   - CI_REPORT=shippable/testresults/junit.xml
 
-build_image: drydock/u14golall:tip
+build_image: drydock/u14gol:tip
 
 before_install:
   - export GOPATH=$SHIPPABLE_GOPATH
